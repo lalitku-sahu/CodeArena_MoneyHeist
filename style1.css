@@ -1,0 +1,35 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.video
+{
+    height: 100vh;
+}
+.video_background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+@media (min-aspect-ratio: 16/9)
+{
+    .video_background
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9)
+{
+    .video_background
+    {
+        width: 100%;
+        height: auto;
+    }
+}
