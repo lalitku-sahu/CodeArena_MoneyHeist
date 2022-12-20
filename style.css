@@ -257,7 +257,9 @@ span
 }
 .social-links                                      /* this is for styling the-- */ 
 {
+    position: absolute;
     margin-left: 8%;
+    top: 90vh;
 }
 .social-links a                                    /* --social links that i added */
 {
